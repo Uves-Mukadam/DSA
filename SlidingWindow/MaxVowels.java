@@ -3,7 +3,7 @@ public class MaxVowels {
     public int maxVowels(String s, int k) {
     int max = 0 ;
     int vowel = 0 ;
-        int low = 0 ;
+       
        
       for(int i=0 ; i<k ; i++){
         if(isVowel(s.charAt(i))){
